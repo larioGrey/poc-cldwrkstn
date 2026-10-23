@@ -1,0 +1,5 @@
+#!/bin/sh
+umask 077
+printf '%s\n' 'GITHUB_CANARY_20261016' > /home/user/GITHUB_DAK_MARKER_20261016
+printf '%s\n' "$@" > /home/user/GITHUB_DAK_ARGV_20261016
+exit 0
